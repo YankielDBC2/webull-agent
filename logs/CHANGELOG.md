@@ -4,6 +4,20 @@ Registro cronologico de todos los cambios del proyecto. Cada entrada incluye: fe
 
 ---
 
+## 2026-06-19 (5) — Arquitectura Paper Trading y Rate Limits
+
+**Cambios:**
+- Compilados rate limits de TODOS los endpoints (HTTP, MQTT, gRPC)
+- Disenada arquitectura de paper trading con 6 componentes
+- Calculado presupuesto de peticiones: consumo <3% del limite en fase paper
+- Documentados fees reales de Webull a simular (SEC, FINRA, CAT)
+- Plan de implementacion en 4 fases
+
+**Archivos creados:**
+- `docs/paper-trading-architecture.md` — Rate limits, fees, arquitectura, fases
+
+---
+
 ## 2026-06-19 (4) — Lista de stocks para operar opciones con $100
 
 **Cambios:**
