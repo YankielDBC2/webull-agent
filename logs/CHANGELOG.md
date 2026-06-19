@@ -4,6 +4,19 @@ Registro cronologico de todos los cambios del proyecto. Cada entrada incluye: fe
 
 ---
 
+## 2026-06-19 (3) — Investigacion de datos adicionales (NOII, streaming, trade events, etc.)
+
+**Cambios:**
+- Investigados 10 endpoints adicionales no cubiertos en la investigacion inicial
+- Documentados schemas de respuesta con campos especificos (snapshot, trade events)
+- Descubierto NOII (subasta), streaming MQTT, trade events gRPC
+- Documentado rate limits detallados por endpoint
+
+**Archivos creados:**
+- `docs/additional-data.md` — Campos de respuesta, streaming, NOII, news, screener, watchlists
+
+---
+
 ## 2026-06-19 (2) — Investigacion de datos y estadisticas de contratos
 
 **Cambios:**

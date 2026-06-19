@@ -24,6 +24,7 @@ Integracion con las APIs publicas de Webull para trading algoritmico, datos de m
 
 - [Referencia de APIs](./docs/webull-api-reference.md) — Todas las APIs documentadas con endpoints
 - [Investigacion de Contratos](./docs/contracts-data-research.md) — Que datos y estadisticas podemos obtener
+- [Datos Adicionales](./docs/additional-data.md) — Schemas, streaming MQTT, NOII, trade events, screener
 - [Guia de Configuracion](./docs/setup-guide.md) — Como obtener credenciales y configurar el entorno
 - [Seguridad](./docs/security.md) — Buenas practicas de seguridad
 - [CHANGELOG](./logs/CHANGELOG.md) — Registro cronologico de cambios
