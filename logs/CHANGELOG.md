@@ -4,6 +4,19 @@ Registro cronologico de todos los cambios del proyecto. Cada entrada incluye: fe
 
 ---
 
+## 2026-06-19 (4) — Lista de stocks para operar opciones con $100
+
+**Cambios:**
+- Compilada lista de 20 stocks con alto volumen aptos para opciones con presupuesto de $100
+- Clasificados en 3 tiers por ajuste de presupuesto y liquidez
+- Documentados criterios de seleccion y endpoints API para verificacion
+- Plan de script para refresco diario de la lista
+
+**Archivos creados:**
+- `docs/optionable-stocks.md` — 20 stocks, criterios, endpoints y script plan
+
+---
+
 ## 2026-06-19 (3) — Investigacion de datos adicionales (NOII, streaming, trade events, etc.)
 
 **Cambios:**
