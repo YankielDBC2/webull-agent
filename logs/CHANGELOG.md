@@ -4,6 +4,31 @@ Registro cronologico de todos los cambios del proyecto. Cada entrada incluye: fe
 
 ---
 
+## 2026-06-19 (6) — Implementacion del bot: Webull client + Telegram reporter
+
+**Cambios:**
+- Implementado cliente HTTP con firma HMAC-SHA1 (sin depender del SDK — compatible Python 3.14)
+- Verificada conexion a Webull test env: account list OK, snapshot AAPL OK
+- Integrado Telegram reporter: mensajes de prueba enviados al canal
+- Documentada restriccion: test env solo permite AAPL (necesita API key prod para 10 stocks)
+- Estructura del bot completa: webull_client, market_data, telegram_reporter, bot main loop
+
+**Archivos creados/modificados:**
+- `src/webull_client.py` — Cliente HTTP con HMAC signing manual (docs oficiales)
+- `src/market_data.py` — Engine de polling con cache y alertas
+- `src/telegram_reporter.py` — Formateo y envio a Telegram
+- `src/bot.py` — Main loop async del bot
+- `src/config.py` — Configuracion desde .env
+- `src/__init__.py` — Package
+- `requirements.txt` — Dependencias
+- `scripts/test_connection.py` — Verifica Webull
+- `scripts/test_watchlist.py` — Test 10 stocks
+- `scripts/test_telegram.py` — Test Telegram
+- `.gitignore` — Ajustado (config/ ya no esta ignorado, solo .env)
+- `docs/bot-strategy.md` — Estrategia completa + restricciones
+
+---
+
 ## 2026-06-19 (5) — Arquitectura Paper Trading y Rate Limits
 
 **Cambios:**

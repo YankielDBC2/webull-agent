@@ -1,9 +1,11 @@
 # Credenciales y tokens — NUNCA commitear
 .env
-config/
 *.token
 *.key
 *.pem
+
+# Datos locales del bot (cache, logs, db)
+data/
 
 # Python
 __pycache__/
