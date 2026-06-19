@@ -1,0 +1,31 @@
+# Credenciales y tokens — NUNCA commitear
+.env
+config/
+*.token
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Dependencias
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs de auditoria (pueden contener datos sensibles)
+*.audit.log
